@@ -191,7 +191,7 @@ npm install
 ### 3. Configure o Supabase
 
 1. Crie um projeto no [Supabase Dashboard](https://app.supabase.com)
-2. Vá em **SQL Editor** e execute os scripts de criação das tabelas (acima)
+2. Vá em **SQL Editor** e execute o script [`supabase/schema.sql`](./supabase/schema.sql) (tabelas, RLS, trigger e views)
 3. Vá em **Authentication > Providers** e ative o Google (ou Email)
 4. Copie a **URL** e a **anon key** do projeto
 
@@ -258,10 +258,10 @@ O app abre em tela cheia, sem barra do navegador, com ícone próprio.
 - [x] Calendário de streak
 - [x] Estatísticas básicas
 - [x] Notificações push
-- [ ] Integração com Supabase (persistência na nuvem)
-- [ ] Login com Google
-- [ ] Registro de carga por exercício
-- [ ] Gráfico de evolução de carga ao longo do tempo
+- [x] Integração com Supabase (persistência na nuvem)
+- [x] Login com Google
+- [x] Registro de carga por exercício
+- [x] Gráfico de evolução de carga ao longo do tempo
 - [ ] Criação de treinos personalizados pelo usuário
 - [ ] Modo offline completo com sync
 - [ ] Compartilhar streak nas redes sociais
